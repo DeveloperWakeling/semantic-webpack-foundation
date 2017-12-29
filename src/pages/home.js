@@ -9,6 +9,10 @@ class Home extends Component {
       </div>
     );
   }
+
+  testFunction = () => {
+    alert("Hello World");
+  }
 }
 
 export default Home;
